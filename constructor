@@ -1,0 +1,7 @@
+class Instructor: 
+    def __int__(self ,name ,address):
+        self.Name=name
+        self.Address=address
+
+instructor_1=Instructor("jenny","Gurgaon")
+print(instructor_1.Name)
