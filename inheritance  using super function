@@ -1,0 +1,14 @@
+class human:
+     def eat(self):
+         print("I can eat")
+     def work(self):
+         print(" I can work")
+class male(human):
+     def flirt(self):
+         print("i can")
+     def work(self):
+         super().work()
+male_1=male()
+male_1.eat()
+male_1.flirt()
+male_1.work()
