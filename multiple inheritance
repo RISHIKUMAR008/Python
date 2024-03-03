@@ -1,0 +1,15 @@
+//Multiple inheritance
+
+class Human:
+    def eat(self):
+        print("I can eat")
+class Male(Human):
+    def sleep(self):
+        print("I can sleep whole day")
+class Female(Human):
+    def work(self):
+        print("I can code")
+Female_1=Female()
+Female_1.eat()
+Male_1=Male()
+Male_1.sleep()
