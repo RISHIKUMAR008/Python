@@ -1,0 +1,17 @@
+class Duck:
+    def swim(self):
+        print("I am duck and I can swim")
+    def speak(self):
+        print("quack quack")
+class Dog:
+    def swim(self):
+        print("I am and  can swim")
+    def speak(self):
+        print("woof woof")
+def display(duck):
+    duck.swim()
+    duck.speak()
+    print("information displayed")
+d = Duck()
+dog = Dog()
+display(dog)
