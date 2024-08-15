@@ -1,0 +1,15 @@
+function createPerson(name, age) {
+  return {
+    name: name,
+    age: age,
+    sayHello: function() {
+      console.log(`Hello, my name is ${this.name}`);
+    }
+  };
+}
+
+const person1 = createPerson('Alice', 25);
+const person2 = createPerson('Bob', 30);
+
+person1.sayHello(); // Output: Hello, my name is Alice
+person2.sayHello(); // Output: Hello, my name is Bob
